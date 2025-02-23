@@ -5,6 +5,7 @@ It packages all the low-level interaction with timer clocks that underly PWM fun
 
 Currently, this project is only an example to spare you the trouble of figuring out how to work with Arduino PWM in rust.
 It would be good to eventually package this into a proper crate with support for as many Arduino boards as possible, but I don't have the time to do that myself, so feel free to take up such a project yourself.
+Also, I'd like to take what I developed here further than PWM. See [Structure](#structure) below as well as my [list of next steps](./ToDo.md).
 
 ### Code Example
 
@@ -42,3 +43,4 @@ The `setup_pins` function initialises both the `PWM` and `PinMap` structs.
 
 I find this way of organising the pin objects very useful, even beyond working with PWM (in fact, I developed this structure before working with PWM).
 I'd like to add similarly programmer-friendly methods for analog reading.
+See my [list of next steps](./ToDo.md).
