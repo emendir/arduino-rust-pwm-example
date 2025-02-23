@@ -1,0 +1,4 @@
+- add function for 16-bit PWMs
+- analog read
+- read and write methods similar to PWM.write() and PWM.write_to_pin_number()
+- figure out how to reduce the boilerplate of having to declare twice whether a pin is for input or output,  in the `setup_pins` function and the `PinMap` struct
