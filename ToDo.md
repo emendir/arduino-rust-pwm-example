@@ -2,3 +2,5 @@
 - analog read
 - read and write methods similar to PWM.write() and PWM.write_to_pin_number()
 - figure out how to reduce the boilerplate of having to declare twice whether a pin is for input or output,  in the `setup_pins` function and the `PinMap` struct
+- proper usage instructions
+- implement https://github.com/Rahix/avr-hal/blob/main/examples/arduino-uno/src/bin/uno-simple-pwm.rs
